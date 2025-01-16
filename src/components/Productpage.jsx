@@ -45,7 +45,7 @@ export default function Productpage() {
             <div className='w-50'>
                 <h4>{Product[0].pageInfo.title}</h4>
                 <p className=''>{Product[0].pageInfo.rating}<span>/5 rating</span></p>
-                <p className='fs-4'><span>₹ </span>{Product[0].price}/-</p>
+                <p className='fs-4'><span>DH </span>{Product[0].price}/-</p>
 
                 <div className='d-flex'>
 

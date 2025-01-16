@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-primary py-3" aria-label="Eighth navbar example">
                 <div className="container">
-                    <Link className="navbar-brand text-light fs-4 fw-bold" to="/">MyCart.com</Link>
+                    <Link className="navbar-brand text-light fs-4 fw-bold" to="/">saifeco.com</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

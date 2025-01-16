@@ -15,7 +15,7 @@ export default function Cartproductcard(props) {
                             <h5 className="card-title">{props.title}</h5>
                             <p className="card-text">{props.description}</p>
                             <div className='d-flex align-items-center justify-content-between'>
-                                <p className="card-text fw-bold">₹ {props.price}/-</p>
+                                <p className="card-text fw-bold">DH {props.price}/-</p>
                                 <p className="card-text ">Quantity :<strong> {props.quantity} </strong></p>
                                 <a href='#' id={props.id} onClick={props.removeProductFn} className='mb-3 ms-3 text-danger'>Remove</a>
                             </div>

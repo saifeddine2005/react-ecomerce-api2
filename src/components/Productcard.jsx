@@ -16,7 +16,7 @@ export default function Productcard(props) {
                     </Link>
                     <p className="card-text">{(props.description).slice(0,50)}...</p>
                     {/* <p className='bg-primary text-light ps-2 fw-bold'>DEAL OF THE DAY</p> */}
-                    <h5 className="card-title"><span>₹ </span>{props.price}<span>/-</span> </h5>
+                    <h5 className="card-title"><span>DH </span>{props.price}<span>/-</span> </h5>
                 </div>
             </div>
         </div>

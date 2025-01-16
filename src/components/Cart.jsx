@@ -53,10 +53,10 @@ export default function Cart() {
 
                         <div className="card w-25" style={{ height: "15rem" }}>
                             <div className="card-body">
-                                <p className="card-text">Price : ₹ {total}</p>
-                                <p className="card-text">Delivery Charges : ₹ {!total ? "00" : deliveryCharges * totalItems}</p>
+                                <p className="card-text">Price : DH {total}</p>
+                                <p className="card-text">Delivery Charges : DH {!total ? "00" : deliveryCharges * totalItems}</p>
                                 <p className="card-text">Discount : none</p>
-                                <p className="card-title">Total : <strong>₹ {total + deliveryCharges*totalItems}.00</strong></p>
+                                <p className="card-title">Total : <strong>DH {total + deliveryCharges*totalItems}.00</strong></p>
                                 <Link to="/cart/checkout" className="btn btn-primary w-100 mt-3">Check out</Link>
                             </div>
                         </div>
